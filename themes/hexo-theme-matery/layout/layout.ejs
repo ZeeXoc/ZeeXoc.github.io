@@ -5,10 +5,17 @@
 <% if (theme.background.enable) { %>
    <%- partial('_partial/background') %>
 <% } %>
+<script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<script type="text/javascript">
+    $(document).pjax('a[target!=_blank]', '#pjax-container', {fragment:'#pjax-container', timeout:8000})
+    $(document).pjax('a[target!=_blank]', 'header', {fragment:'#pjax-container', timeout:8000})
+</script>
 
 <body>
     <%- partial('_partial/header') %>
-    <%- body %>
+    <div id="pjax-container">
+        <%- body %>
+    </div>
 
     <%- partial('_partial/footer') %>
 
