@@ -1,8 +1,9 @@
 ---
 layout: post
-title: teachers
+title: 老师们
 date: 2021-01-03 13:39:01
-tags: 学校 老师
+tags: [文章,学校,老师]
+categories: article
 ---
 <h1><span style="color: #ff0000; ">列五教师风采</span></h1>
 
