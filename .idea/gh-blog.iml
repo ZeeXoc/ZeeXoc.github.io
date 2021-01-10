@@ -11,5 +11,6 @@
     <orderEntry type="library" name="pjax" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="jquery.pjax" level="application" />
+    <orderEntry type="library" name="jquery.pjax" level="application" />
   </component>
 </module>
