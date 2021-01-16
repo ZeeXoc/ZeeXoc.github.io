@@ -79,16 +79,16 @@ music:
   autoHide: true    # hide automaticaly
   server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
-  id: 4923345699     #require	song id / playlist id / album id / search keyword
+  id: 5467934225     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
   autoplay: true   # 是否自动播放
   theme: '#42b983'
   loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'list'   # 音频循环顺序, 可选值: 'list', 'random'
+  order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: true  # 列表默认折叠
-  hideLrc: true     # 隐藏歌词
+  hideLrc: false     # 隐藏歌词
 
 # Whether to display the videos.
 # 是否在首页显示视频.
@@ -137,7 +137,7 @@ socialLink:
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
   qq: 2972182388
-  weibo: # https://weibo.com/xxx
+  weibo: 
   zhihu: # https://www.zhihu.com/xxx
   rss: true # true、false
 
@@ -188,10 +188,10 @@ mathjax:
 # 文章信息--若要开启文章字数统计，需要安装 hexo-wordcount 插件，安装命令: `npm i --save hexo-wordcount`
 postInfo:
   date: true # 发布日期
-  update: false # 更新日期
+  update: true # 更新日期
   wordCount: true # 文章字数统计
-  totalCount: false # 站点总文章字数
-  min2read: false # 文章阅读时长
+  totalCount: true # 站点总文章字数
+  min2read: true # 文章阅读时长
   readCount: true # 文章阅读次数
 
 # Whether to activate the 'love' effect of clicking on the page.
@@ -400,7 +400,7 @@ googleAnalytics:
 # 添加 baidu Analytics 配置
 baiduAnalytics:
   enable: true
-  id: 9b21132181db9e60ad393865e3b4fc1a
+  id: 5jBcOt7jqRaAV7kXHTTP
 
 # 百度搜索资源平台提交链接
 baiduPush: true
@@ -579,7 +579,7 @@ jsDelivr:
 
 # 网站背景图
 background:
-  enable: false
+  enable: true
   url: "https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg"
 
 # 说说 https://artitalk.js.org/
